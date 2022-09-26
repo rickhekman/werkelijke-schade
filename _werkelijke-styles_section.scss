@@ -1,0 +1,64 @@
+.hidden {
+  display: none;
+}
+
+&__roadmap-svg-container {
+  margin: 0;
+}
+
+&__roadmap-content {
+  padding: 1rem;
+
+  @media only screen and (min-width: $query__small) {
+    padding: 2rem;
+  }
+
+  @media only screen and (min-width: $query__wide) {
+    padding: 3rem;
+  }
+
+  svg {
+    width: 100%;
+    height: auto;
+  }
+}
+
+&__steps-content {
+  padding: 2rem 1rem 2rem 1rem;
+
+  @media only screen and (min-width: $query__small) {
+    padding: 3rem;
+  }
+}
+
+&__steps-body {
+  padding-top: 1rem;
+}
+
+&__steps-btn {
+  display: flex;
+  justify-content: center;
+
+  &_link {
+    width: intrinsic;
+    width: -moz-fit-content;
+    width: -webkit-fit-content;
+    width: fit-content;
+    text-decoration: none;
+    font-weight: bold;
+    padding: .75rem 1.5rem;
+    margin-bottom: -1.63rem;
+    border: 2px solid $color__dark-pink;
+    background-color: $color__dark-pink;
+    color: white !important;
+    border-radius: .65rem;
+
+    &:hover,
+    &:active {
+      background-color: white;
+      color: $color__dark-pink !important;
+      border: 2px solid $color__dark-pink;
+      transition: all .25s ease-in-out;
+    }
+  }
+}

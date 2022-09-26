@@ -1,0 +1,57 @@
+&__header {
+  background-color: $color__bright-pink;  
+  padding: 1rem;
+
+  @media only screen and (min-width: $query__small) {
+    padding: 1rem 3rem;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+}
+
+&__steps-header {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: .5rem;
+  border-bottom: 1px solid black;
+
+  @media only screen and (min-width: $query__wide) {
+    padding-bottom: 1rem;
+  }
+}
+
+&__steps-titles {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 70%;
+
+  &_steps {
+    margin-bottom: 0;
+  }
+}
+
+&__steps-icon {
+  margin: 0;
+  align-self: flex-end;
+  display: flex;    
+  justify-content: flex-end;
+  align-self: flex-start;
+
+  @media only screen and (min-width: $query__wide) {
+    align-self: center;
+  }
+
+  svg {
+    max-width: 65%;
+
+    @media only screen and (min-width: $query__medium) {
+      max-width: 85%;
+    }
+
+    @media only screen and (min-width: $query__wide) {
+      max-width: 100%;
+    }
+  }
+}
