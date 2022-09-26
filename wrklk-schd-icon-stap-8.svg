@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="51.152" height="51.15" viewBox="0 0 51.152 51.15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #007bc7;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+    </style>
+  </defs>
+  <g id="wrklk-schd__svg-step-08_icon" transform="translate(-53.418)">
+    <path id="Path_1230" data-name="Path 1230" class="cls-1" d="M109.85,25.575A25.576,25.576,0,1,1,84.275,0,25.575,25.575,0,0,1,109.85,25.575" transform="translate(-5.28)"/>
+    <path id="Path_1234" data-name="Path 1234" class="cls-2" d="M66.252,16.218a2.444,2.444,0,0,0-.527,3.129l10.43,17.407a2.448,2.448,0,0,0,2.089,1.188h.009a2.448,2.448,0,0,0,2.089-1.175L96.277,10.392a2.445,2.445,0,0,0-3.912-2.9L78.035,23.7l-8.61-7.458a2.442,2.442,0,0,0-3.172-.025" transform="translate(-2.012 3.266)"/>
+  </g>
+</svg>

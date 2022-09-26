@@ -1,0 +1,17 @@
+@import 'werkelijke-styles_root';
+@import 'werkelijke-styles_typography';
+
+.wrklk-schd {
+    @import 'werkelijke-styles_header';
+    @import 'werkelijke-styles_navigation';
+    @import 'werkelijke-styles_section';
+    @import 'werkelijke-styles_svg';
+    @import 'werkelijke-styles_footer';
+}
+
+.wrklk-schd {
+    border: 4px solid $color__bright-pink;
+    border-radius: 1.25rem;
+    overflow: hidden;
+    margin-bottom: 2em;
+}

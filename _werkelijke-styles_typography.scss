@@ -1,0 +1,44 @@
+.wrklk-schd {
+  h2 {
+    border-top: 0;
+    font-size: 1.75rem;
+
+    @media only screen and (min-width: $query__medium) {
+      font-size: 2rem;
+    }
+    
+    @media only screen and (min-width: $query__wide) {
+      font-size: 2.45rem;
+    }
+  }
+
+  &__title {
+    color: $color__dark-pink;
+  }
+
+  &__back {
+    font-size: 18px;
+    color: $color__dark-pink;
+
+    &:hover,
+    &:visited,
+    &:active {
+      color: $color__dark-pink;
+    }
+  }
+
+  &__steps-titles {
+    h3 {
+      font-size: larger;
+    }
+    &_steps {
+      color: black;
+      
+    }
+
+    &_main {
+      color: $color__dark-pink;
+      font-weight: normal;
+    }
+  }
+} 

@@ -1,0 +1,109 @@
+&__svg-btn {
+  cursor: pointer;
+
+  &:hover {
+    .wrklk-schd__svg-btn_background {      
+      fill: $color__pink !important;
+      transition: fill .5s ease-in-out;  
+    }
+    .wrklk-schd__svg-btn_background-8 {      
+      fill: $color__accent-blue !important;
+      transition: fill .5s ease-in-out;  
+    }      
+  }
+  
+  &:focus {
+    outline: none !important;
+    
+    .wrklk-schd__svg-btn_background {      
+      fill: $color__pink !important;            
+    }
+    
+    .wrklk-schd__svg-btn_background-8 {      
+      fill: $color__accent-blue !important;            
+    } 
+  }
+}
+
+.cls-1 {  
+  fill: none;
+}
+
+.cls-2 {  
+  fill: $color__dark-pink;
+}                                                                                                    
+
+.cls-3 {  
+  clip-path: url(#clip-path);
+}
+
+.cls-4 {
+  fill: $color__dark-pink;
+}
+
+.cls-5 {
+  fill: $color__light-pink;
+}
+
+.cls-6 {
+  font-size: 16px;
+  font-family: "RO Sans", Calibri, sans-serif;
+}
+
+.cls-7 {
+  font-size: 25px;
+  font-family: "RO Sans", Calibri, sans-serif;
+  font-weight: 700;
+}
+
+.cls-8 {  
+  clip-path: url(#clip-path-2);
+}
+
+.cls-9 {  
+  fill: #ffffff;
+}
+
+.cls-10 {  
+  fill: $color__accent-pink;
+}
+
+.cls-11 {  
+  clip-path: url(#clip-path-3);
+}
+
+.cls-12 {  
+  clip-path: url(#clip-path-4);
+}
+
+.cls-13 {  
+  clip-path: url(#clip-path-5);
+}
+
+.cls-14 {  
+  clip-path: url(#clip-path-6);
+}
+
+.cls-15 {  
+  clip-path: url(#clip-path-7);
+}
+
+.cls-16 {  
+  clip-path: url(#clip-path-8);
+}
+
+.cls-17 {  
+  fill: $color__light-blue;
+}
+
+.cls-18 {
+  fill: $color__dark-blue;
+}
+
+.cls-19 {
+  clip-path: url(#clip-path-9);
+}
+
+.cls-20 {
+  clip-path: url(#clip-path-10);
+}

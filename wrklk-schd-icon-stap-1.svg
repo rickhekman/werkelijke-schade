@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="71.05" height="48.314" viewBox="0 0 71.05 48.314">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_1836" data-name="Rectangle 1836" width="71.05" height="48.314" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="wrklk-schd__svg-step-01_icon__dark" clip-path="url(#clip-path)">
+    <path id="Path_1225" data-name="Path 1225" d="M350.767,113.4H285.4a2.842,2.842,0,0,0-2.842,2.842v42.63a2.843,2.843,0,0,0,2.842,2.842h65.366a2.842,2.842,0,0,0,2.842-2.842v-42.63a2.841,2.841,0,0,0-2.842-2.842m-62.524,15.631h32.683v12.789H288.243Z" transform="translate(-282.559 -113.403)" fill="#b90066"/>
+    <rect id="Rectangle_1835" data-name="Rectangle 1835" width="5.684" height="11.368" transform="translate(32.683)" fill="#fff"/>
+  </g>
+</svg>
